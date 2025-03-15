@@ -1,4 +1,4 @@
-import { SparklesCore } from "components/ui/sparkles";
+import { SparklesCore } from "../../components/ui/sparkles"
 import { LoaderFunction, ActionFunction, json } from "@remix-run/node";
 import { useEffect, useRef, useState } from "react";
 import { useLoaderData, Link, useFetcher } from "@remix-run/react";
