@@ -12,6 +12,10 @@ import "./tailwind.css";
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
+    rel: "stylesheet",
+    href: "https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css",
+  },
+  {
     rel: "preconnect",
     href: "https://fonts.gstatic.com",
     crossOrigin: "anonymous",
